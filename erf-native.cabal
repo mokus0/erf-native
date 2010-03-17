@@ -11,7 +11,7 @@ license:                GPL
 license-file:           LICENSE
 homepage:               http://code.haskell.org/~mokus/erf-native
 
-category:               Unclassified
+category:               Math
 synopsis:               Native Haskell implementation of the interface from the erf package
 description:            Native Haskell implementation of the interface from the erf package.
                         I have had problems getting the erf package to work on Windows systems,
