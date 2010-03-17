@@ -5,10 +5,11 @@ stability:              experimental
 cabal-version:          >= 1.2
 build-type:             Simple
 
-author:                 James Cook <your email here>
-maintainer:             James Cook <your email here>
+author:                 James Cook <james.cook@usma.edu>
+maintainer:             James Cook <james.cook@usma.edu>
 license:                GPL
-homepage:               /dev/null
+license-file:           LICENSE
+homepage:               http://code.haskell.org/~mokus/erf-native
 
 category:               Unclassified
 synopsis:               Native Haskell implementation of the interface from the erf package
