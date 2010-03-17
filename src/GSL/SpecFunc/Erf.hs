@@ -23,11 +23,6 @@ module GSL.SpecFunc.Erf (erf, erfc, erff, erfcf) where
 import qualified Data.Vector as V
 import NR.Ch5.S8
 
--- Translation into Haskell of GSL's erf and related functions - eventually
--- this should be either replaced by a nice public package or wrapped up in
--- an internal module for use by random-fu (to drop the 'erf' package 
--- dependency so we can build on windows)
-
 -- I'm lazy: these should be implemented as native Float operations
 -- with truncated series, etc., but they aren't.
 erff :: Float -> Float
