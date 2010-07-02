@@ -22,5 +22,4 @@ Library
   hs-source-dirs:       src
   exposed-modules:      Data.Number.Erf
   other-modules:        GSL.SpecFunc.Erf
-                        NR.Ch5.S8
-  build-depends:        base >= 3 && <5, vector
+  build-depends:        base >= 3 && <5, polynomial
